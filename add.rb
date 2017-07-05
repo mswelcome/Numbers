@@ -1,13 +1,6 @@
-def add1()
-	x = 5
+def add(num)
+	x = num
 end
 
-def add2()
-	y = 5 
-end
+puts add(3) + add(5)
 
-def result()
-	z = add1 + add2
-end
-
-puts result

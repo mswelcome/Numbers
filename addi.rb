@@ -1,11 +1,11 @@
 def add1()
-	puts "What is the first number?"
-	x = gets.to_i
+    puts "What is the first number?"
+	x = gets.chomp.to_i
 end
 
 def add2()
 	puts "What is the second number?"
-    y = gets.to_i 
+    y = gets.chomp.to_i 
 end
 
 def result()
@@ -13,3 +13,4 @@ def result()
 end
 
 puts "The answer is #{result}"
+
