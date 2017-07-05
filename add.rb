@@ -1,6 +1,8 @@
-def add(num)
+def add(num, num2)
 	x = num
+	y = num2
+	x + y
 end
 
-puts add(3) + add(5)
+puts add(3,5)
 
